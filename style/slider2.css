@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --clr: #fde7eb;
+  }
+  
+
+  
+  .slider {
+    --s:40px;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 2/1;
+    display:grid;
+    margin: 20px auto;
+    background: center;
+    animation: s1 8s linear infinite;
+  }
+  .slider::before {
+    content:"";
+    --g:repeating-conic-gradient(#000 0 25%,#0000 0 50%);
+    -webkit-mask:var(--g) 0 0,var(--g) 0 0;
+    -webkit-mask-size:calc(2*var(--s)) calc(2*var(--s));
+    -webkit-mask-composite:xor;
+    background:center/cover;
+    animation:inherit;
+    animation-name: p, s2;
+  }
+  @keyframes p{
+    0% ,10%,
+    85%,100% {-webkit-mask-position:0 0,0 0;}
+    15%,35%  {-webkit-mask-position:var(--s) 0,0 0;}
+    40%,60%  {-webkit-mask-position:var(--s) var(--s),0 0;}
+    65%,80%  {-webkit-mask-position:0 var(--s),0 0;}
+  }
+  
+  @keyframes s1 {
+    0%,16%,
+    67%,100% {background-image:url(https://source.unsplash.com/800x400/?dog)}
+    17%,66%  {background-image:url(https://source.unsplash.com/800x400/?cat)}
+  }
+  @keyframes s2 {
+    0%,41%,
+    87%,100% {background-image:url(https://source.unsplash.com/800x400/?mountain)}
+    42%,86%  {background-image:url(https://source.unsplash.com/800x400/?sea)}
+  }
