@@ -52,7 +52,7 @@
     }
 
     #contenido {
-        width: 720px;
+        width: 900px;
         height: 900px;
         float: left;
         background: white;
@@ -71,7 +71,7 @@
     }
 
     #publicidad {
-        width: 200px;
+        width: 350px;
         height: 900px;
          margin-top: 5px;
         margin-bottom: 5px;
