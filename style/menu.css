@@ -1,10 +1,6 @@
 
   ul {
     list-style: none;
-	    position: absolute;
-  top: 7%;
-  left: 10%;
-;
   }
   #menu li > a {
     background-color: #D0A9F5;
@@ -13,7 +9,6 @@
     display: block;
     text-decoration: none;
     min-width: 118 px;
-
   }
   #menu li > a:hover {
     color: #000;
@@ -38,3 +33,14 @@
     }
 
   
+    #anima {
+      position: absolute;
+     
+    }
+    #boy {
+      width: 172px;
+      height: 242px;
+      margin: 0 auto;
+      margin-top: 100px;
+      
+    }
