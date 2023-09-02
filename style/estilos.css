@@ -7,6 +7,7 @@
       
       padding: 0px;
       margin: 0px;
+ 
     }
 
  
@@ -24,12 +25,12 @@
     }
     
 
-      
     header {
         height: 80px;
         background: #4BD6CD;
         color: white;
     }
+
     header h1 {
         font-size: 30px;
         text-align: center;
@@ -53,14 +54,14 @@
     }
 
     #contenido {
-        width:80%;
-        height: 90%;
-        float: left;
+        width:720px;
+        height: 900px;
+        float: center;
         background: white;
         margin-top: 5px;
         margin-bottom: 5px;
 		 margin-right: 5px;
-		margin-left: 5px;
+		margin-left: 300px;
 position: absolute;
       
     }
@@ -73,7 +74,7 @@ position: absolute;
     }
 
     #publicidad {
-        width: 300px;
+        width: 20%;
         height: 900px;
          margin-top: 5px;
         margin-bottom: 5px;
@@ -93,6 +94,8 @@ position: absolute;
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-bottom: 20px;
+	
+
 }
       }
       .site-footer hr {
