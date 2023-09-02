@@ -13,10 +13,22 @@
 </head>
 
 <body>
- 
-	 <header>
-		 <input type="image" src="img/logo2.jpeg"   width="70" height="60" ></input>
-      <ul id="menu"> 
+  
+  <div id="contenedor" >
+    
+    <header>  
+      <input type="image" src="img/logo2.jpeg"   width="80" height="80" ></input><h1>::MUNDO KAWAI::</h1>
+     
+      <div class="wrap">
+        <div class="search">
+          <input type="text"=" class="searchTerm" placeholder="¿Qué estás buscando?">
+          <input type="image" src="img/lupa.png" class="searchButton" >
+        </div>
+      
+    </header>
+  
+    <nav>
+      <ul id="menu">  
         
         <li><a href="">INICIO</a></li>
         <li><a href="map.html" target="formularios">TIENDA</a>
@@ -43,32 +55,28 @@
           </ul>  
         </li>
   
-   <li><a href="nosotros.html" target="formularios" >NOSOTROS</a></li>
-    </ul>
- 
-  <div class="wrap">
-		 
-        <div class="search">
-          <input type="text" class="searchTerm" placeholder="¿Qué estás buscando?"></input>
-          <input type="image" src="img/lupa.png" class="searchButton"/>
-       </div>
-			</div>	
-    </header>
-
-<nav>nav
-</nav>
-
-    <section>
-      <iframe src="contenido.html"  name="formularios" frameborder="0" scrolling="no" style="width: 100%; height: 100%"></iframe>  
-	</section>
-	
-    <aside >
-	<iframe src="publicidad.html" style="width: 100%; height: 100%" name="formularios" frameborder="0" scrolling="no"></iframe> 
-	</aside>
+   <li><a href="nosotros.html" target="formularios" > NOSOTROS</a></li>
     
+  <div class="grid-block" style="background-color: #D0A9F5 ; width: 100%; height: 6vh;">
+</div> 
+    </nav>
 
-	<footer class="site-footer">
-
+	<div>
+    <section id="contenido">
+      
+      <iframe src="contenido.html" style="width: 100%; height: 100%" name="formularios" frameborder="0" scrolling="no"></iframe>  
+    </section >
+	</div>
+	
+	<section>
+    <aside id="publicidad">
+<iframe src="publicidad.html" style="width: 100%; height: 100%" name="formularios" frameborder="0" scrolling="no"></iframe> 
+    </section>
+</div>
+    
+<footer class="site-footer" >
+    <div class="container">
+      <div class="row">
         <div class="col-sm-12 col-md-6">
         
           <p class="text-justify"> <br> 
@@ -78,26 +86,28 @@
         <div class="col-xs-6 col-md-3">
           <h3>Contacto</h3>
           <ul class="footer-links">
-            <li><a href="">Nuestra Tienda</a></li>
-            <li><a href="contacto1.html">Consultas y Sugerencias</a></li>
-            <li><a href="">Telefonos</a></li>
+            <li><a href="preguntas.html" target="_blank"> Preguntas frecuentes</a></li>
+            <li><a href="contacto1.html"> Consultas y Sugerencias</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=997848011&text&type=phone_number&app_absent=0" target="_blank">Wastsapp</a></li>
             <li><a href="reclam.html">Libro de reclamaciones</a></li>     
           </ul>
         </div>
   
         <div class="col-xs-6 col-md-3">
-          <h3>Nuestras redes Sociales</h3>
+          <h3>Nuestras redes Cociales</h3>
           <ul class="footer-links">
             <li><a href="https://www.facebook.com/Mundo-Kawaii-111696931597377" Target="_blank">Facebook</a></li>
             <li><a href="https://www.youtube.com/channel/UCvKho2vzLE_y7njUkMM3qYQ" Target="_blank">YouTube</a></li>
-            <li><a href="mundokawaii.deyan@gmail.com" Target="_blank">Email</a></li>
+            <li><a href="https://www.mundokawaii.deyan@gmail.com" Target="_blank">Email</a></li>
             <li><a href="https://www.instagram.com/mundokawaii11/?hl=es-la" Target="_blank">Instagram</a></li>
-            <li><a href="https://www.instagram.com/mundokawaii11/?hl=es-la" Target="_blank">Instagram</a></li>
+          </br>
           </ul>
         </div>
-     
+      </div>
       <hr>
-   
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
           <p class="copyright-text">Copyright &copy; 2022 Mundo Kawaii,Lima-Peru
           </p>
@@ -111,8 +121,10 @@
             <li><a class="instagram" href="https://www.mundokawaii.deyan@gmail.com" Target="_blank">M<i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
-     
-  </footer>  
-
+      </div>
+    </div>
+  </footer>
+    
+  </div>
 </body>
 </html>
